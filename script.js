@@ -1,10 +1,3 @@
-fetch('https://gotiny.cc/api', {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify({ "input" : "https://amazon.com/very-long-url" })
-})
-
-
 const input = document.getElementById('url-input')
 const resultContainer = document.getElementsByClassName('result')[0]
 const urlLink = 'https://gotiny.cc/'
